@@ -14,6 +14,7 @@ var (
 	ErrContentNotDefined         = errors.New("content is not defined")
 	ErrNoSenders                 = errors.New("no senders defined")
 	ErrMessageNotSent            = errors.New("message not sent")
+	ErrTemplateNotFound          = template.ErrTemplateNotFound
 )
 
 type SendOptions struct {
