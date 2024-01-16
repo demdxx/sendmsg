@@ -1,4 +1,4 @@
-module gitgub.com/demdxx/sendmsg
+module github.com/demdxx/sendmsg
 
 go 1.21
 

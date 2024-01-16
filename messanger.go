@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"gitgub.com/demdxx/sendmsg/template"
+	"github.com/demdxx/sendmsg/template"
 )
 
 var (

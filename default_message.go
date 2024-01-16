@@ -5,7 +5,7 @@ import (
 
 	"github.com/demdxx/xtypes"
 
-	va "gitgub.com/demdxx/sendmsg/internal/varaccessor"
+	va "github.com/demdxx/sendmsg/internal/varaccessor"
 )
 
 type DefaultMessage struct {

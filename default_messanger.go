@@ -3,7 +3,7 @@ package sendmsg
 import (
 	"context"
 
-	"gitgub.com/demdxx/sendmsg/template"
+	"github.com/demdxx/sendmsg/template"
 )
 
 // DefaultMessanger implements sendmsg.Messanger interface

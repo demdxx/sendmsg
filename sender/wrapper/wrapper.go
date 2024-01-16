@@ -3,7 +3,7 @@ package wrapper
 import (
 	"context"
 
-	"gitgub.com/demdxx/sendmsg"
+	"github.com/demdxx/sendmsg"
 )
 
 type Sender func(ctx context.Context, message sendmsg.Message) error

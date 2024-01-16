@@ -3,7 +3,7 @@ package dummy
 import (
 	"context"
 
-	"gitgub.com/demdxx/sendmsg"
+	"github.com/demdxx/sendmsg"
 )
 
 type Sender struct {

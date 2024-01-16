@@ -7,7 +7,7 @@ import (
 	"regexp"
 	texttemplate "text/template"
 
-	va "gitgub.com/demdxx/sendmsg/internal/varaccessor"
+	va "github.com/demdxx/sendmsg/internal/varaccessor"
 )
 
 var varReplacer = regexp.MustCompile(`\{\{\s*\.([a-zA-Z0-9_]+)\s*\}\}`)

@@ -5,7 +5,7 @@ import (
 
 	"github.com/ainsleyclark/go-mail/mail"
 
-	"gitgub.com/demdxx/sendmsg"
+	"github.com/demdxx/sendmsg"
 )
 
 // Sender implements sendmsg.Sender interface for email
