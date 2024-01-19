@@ -71,6 +71,7 @@ func (o *SendOptions) GetMessage(storage template.Storage) (Message, error) {
 			Recipients: o.Recipients,
 			CC:         o.CC,
 			BCC:        o.BCC,
+			Vars:       o.Vars,
 			Attaches:   o.Attaches,
 		}, nil
 	}
@@ -87,6 +88,7 @@ func (o *SendOptions) GetMessage(storage template.Storage) (Message, error) {
 		Subject:    o.Subject,
 		HTML:       o.HTML,
 		PlainText:  o.Text,
+		Vars:       o.Vars,
 		Attaches:   o.Attaches,
 	}, nil
 }
