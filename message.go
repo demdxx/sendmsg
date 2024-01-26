@@ -11,6 +11,7 @@ type Message interface {
 	GetHTML(ctx context.Context, vars map[string]any) (string, error)
 	GetPlainText(ctx context.Context, vars map[string]any) (string, error)
 	GetAttaches() []Attach
+	GetVars() map[string]any
 
 	Complete() error
 }

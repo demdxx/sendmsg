@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// variable replacer with regex
+// variable replacer with regex: {{ var.name.and.subname }}
 var varReplacer = regexp.MustCompile(`\{\{\s*([a-zA-Z0-9_]+)\s*\}\}`)
 
 // ReplaceVars replaces variables in string

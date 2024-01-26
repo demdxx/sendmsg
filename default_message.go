@@ -36,6 +36,8 @@ func (m *DefaultMessage) GetPlainText(ctx context.Context, vars map[string]any) 
 	return va.ReplaceVars(m.PlainText, xtypes.Map[string, any](m.Vars).Merge(vars)), nil
 }
 
+func (m *DefaultMessage) GetVars() map[string]any { return m.Vars }
+
 func (m *DefaultMessage) Complete() error { return nil }
 
 var _ Message = (*DefaultMessage)(nil)

@@ -55,6 +55,8 @@ func (m *TemplateMessage) renderTmpl(ctx context.Context, vars map[string]any) (
 	return buf.String(), nil
 }
 
+func (m *TemplateMessage) GetVars() map[string]any { return m.Vars }
+
 func (m *TemplateMessage) Complete() error { return nil }
 
 var _ Message = (*TemplateMessage)(nil)
